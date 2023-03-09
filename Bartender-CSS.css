@@ -1,0 +1,245 @@
+:root{
+	--gg: none;
+	--ancho1:60%;
+	--ancho2:40%;
+	--colorbg:none;
+}
+
+body{
+	
+	max-width:80%;
+	margin:0 auto;
+	text-align:justify;
+	
+	font-family:Georgia;
+}
+
+header{
+	background-color:white;
+	
+	padding-top:15px;
+	margin-bottom:30px;
+	height:9%;
+	width:80%;
+	
+	position:fixed;
+	top:0;
+	
+	z-index:1;
+}
+
+section.cuerpo{
+		background-color:var(--colorbg);
+		margin:0;
+		padding:0;
+		border:0;
+		width:var(--ancho1);
+		/*float:left;*/
+		
+		display:inline-block;
+	}
+
+ol{
+	list-style:none;
+}
+
+nav {
+	text-align:center;
+	max-width:100%;
+}
+
+li.nav{
+	display:inline-block;
+	margin-left:1%;
+	max-width:400px;
+	
+}
+
+
+a.nav {
+	width:20%;
+	text-decoration:none;
+	color:black;
+	background-color:var(--colorbg);
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:15px;
+	}	
+a.nav:hover {
+	
+	text-decoration:none;
+	color:yellow;
+	background-color:black;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:15px;
+	
+	}	
+a.nav:active{
+	background-color:red;
+}
+
+div.grupo1{
+	display:none;
+
+	background-color:lightgray;
+	position:absolute;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:15px;
+	z-index:2;
+}
+div.grupo2{
+	display:none;
+
+	background-color:lightgray;
+	position:absolute;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:15px;
+	z-index:2;
+}
+div.grupo3{
+	display:none;
+
+	background-color:lightgray;
+	position:absolute;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:15px;
+	z-index:2;
+}
+div.grupo4{
+	display:none;
+
+	background-color:lightgray;
+	position:absolute;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:15px;
+	z-index:2;
+}
+
+.a_nav{
+
+	width:100%;
+
+	display:block;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-decoration:none;
+	color:black;
+}
+.a_nav:hover{
+
+	width:100%;
+
+	display:block;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-decoration:none;
+	color:black;
+	background-color:darkgray;
+}
+
+li:hover .grupo1{
+	display:block;
+	width:160px;
+}
+li:hover .grupo2{
+	display:block;
+	width:165px;
+}
+li:hover .grupo3{
+	display:block;
+	width:222px;
+}
+li:hover .grupo4{
+	display:block;
+	width:205px;
+}
+	/**/
+hr .inicio {
+	position:relative;
+	top:20px;
+	width:90%;
+}
+	
+p{
+	
+	margin-left:5%;
+	margin-right:5%;
+}
+
+H1{
+	text-align:center;
+}
+
+aside{
+		float:right;
+		display:inline-block;
+		margin:0;
+		padding:0;
+		border:0;
+		background-color:var(--gg);
+		width:var(--ancho2);
+	}
+	
+
+img.publicidad{
+	width:90%;
+	position:relative;
+	left:5%;
+	
+	margin-bottom:20px;
+}
+div.todo{
+	background-color:var(--colorbg);
+	position:relative;
+	top:13%;
+	}
+	
+
+.dropdown1{
+	display:inline-block;
+}
+.dropdown-content{
+	display:none;
+	background-color:lightgray;
+	height:280px;
+	position:absolute;
+	z-index:2;
+	
+	box-shadow:0px 8px 16px 0px black;
+}
+span.nombre{
+	color:black;
+	text-align:center;
+	position:relative;
+	left:50px;
+	top:7px;
+}
+.img_tequila{
+	display:block;
+	max-height:250px;
+}
+
+li:hover .dropdown-content{
+display:block;
+}
+	
+footer{
+		position:relative;
+	top:13%;
+		background-color:var(--colorbg);
+		text-align:center;
+		height:70px;
+	}
